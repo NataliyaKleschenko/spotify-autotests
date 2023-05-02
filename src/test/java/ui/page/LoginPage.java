@@ -20,9 +20,8 @@ public class LoginPage extends BasePage{
     @FindBy(xpath = "//button[@data-testid='login-button']")
     private WebElement loginInButton;
 
-    @FindBy(xpath = "//button[@class='onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon']")
+    @FindBy(xpath = "//*[contains(@class,'banner-close-button ot-close-icon')]")
     private WebElement cookieButton;
-
     public LoginPage clickToLoginIn() {
         waitForElementToBeClickable(loginInButton).click();
         return this;
