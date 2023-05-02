@@ -4,7 +4,7 @@ import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import ui.model.UserCreator;
+import ui.util.UserCreator;
 import ui.page.AuthorizedUserPage;
 import ui.page.LoginPage;
 import ui.step.LoginPageStep;
